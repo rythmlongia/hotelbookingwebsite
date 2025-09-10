@@ -1,0 +1,80 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  padding: 40px 20px;
+}
+
+/* Container */
+.bookings-container {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.bookings-container h2 {
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.bookings-container p {
+  margin-bottom: 25px;
+  color: #666;
+  text-align: center;
+}
+
+/* Table */
+.bookings-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.bookings-table thead {
+  background: #f8c146;
+  color: #1a1a1a;
+}
+
+.bookings-table th,
+.bookings-table td {
+  padding: 14px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.bookings-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* Status Badges */
+.status {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.status.confirmed {
+  background: #4caf50;
+  color: #fff;
+}
+
+.status.pending {
+  background: #ff9800;
+  color: #fff;
+}
+
+.status.cancelled {
+  background: #f44336;
+  color: #fff;
+}
