@@ -31,6 +31,8 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  
   gap: 25px;
 }
 
@@ -43,6 +45,13 @@ body {
 
 .nav-links li a:hover {
   color: lab(86.72% -74.25 42.93);
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    color: #1a1a1a;
+  }
 }
 
 .btn {
