@@ -139,6 +139,7 @@ body {
 
 /* Destinations Section */
 .destinations {
+  margin-top: 20px;
   padding: 60px 20px;
   text-align: center;
   background: #fff;
