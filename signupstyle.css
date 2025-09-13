@@ -14,7 +14,6 @@ body {
   height: 100vh;
 }
 
-/* Signup Container */
 .signup-container {
   width: 100%;
   max-width: 420px;
@@ -39,7 +38,6 @@ body {
   font-size: 14px;
 }
 
-/* Form */
 .form-group {
   text-align: left;
   margin-bottom: 15px;
@@ -60,7 +58,6 @@ body {
   font-size: 14px;
 }
 
-/* Button */
 .signup-btn {
   width: 100%;
   background: #f8c146;
@@ -78,7 +75,6 @@ body {
   background: #e0a92b;
 }
 
-/* Login Redirect */
 .login-text {
   margin-top: 20px;
   font-size: 14px;

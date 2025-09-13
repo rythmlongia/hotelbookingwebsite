@@ -15,7 +15,7 @@ body {
   align-items: center;
   background-color: #1a1a1a;
   padding: 18px 40px;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -68,7 +68,6 @@ body {
 
 
 
-/* Booking Section */
 .booking {
   background: #f5f5f5;
   padding: 50px 20px;
@@ -137,7 +136,6 @@ body {
 
 
 
-/* Destinations Section */
 .destinations {
   margin-top: 20px;
   padding: 60px 20px;
@@ -197,7 +195,6 @@ body {
 
 
 
-/* About Us Section */
 .about {
   padding: 70px 20px;
   background: #f5f5f5;
@@ -254,7 +251,6 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-/* Contact Us Section */
 .contact {
   padding: 70px 20px;
   background: #fff;

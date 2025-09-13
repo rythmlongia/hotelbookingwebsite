@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,6 @@ body {
   padding: 40px 20px;
 }
 
-/* Container */
 .bookings-container {
   max-width: 1000px;
   margin: auto;
@@ -33,7 +31,6 @@ body {
   text-align: center;
 }
 
-/* Table */
 .bookings-table {
   width: 100%;
   border-collapse: collapse;
@@ -56,7 +53,6 @@ body {
   background: #fafafa;
 }
 
-/* Status Badges */
 .status {
   padding: 6px 12px;
   border-radius: 6px;

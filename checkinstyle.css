@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +13,6 @@ body {
   height: 100vh;
 }
 
-/* Booking Container */
 .booking-container {
   width: 100%;
   max-width: 450px;
@@ -39,7 +37,6 @@ body {
   font-size: 14px;
 }
 
-/* Form */
 .form-group {
   text-align: left;
   margin-bottom: 15px;
@@ -61,7 +58,6 @@ body {
   font-size: 14px;
 }
 
-/* Book Button */
 .book-btn {
   width: 100%;
   background: #f8c146;
