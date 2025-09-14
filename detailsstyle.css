@@ -42,8 +42,7 @@ body {
   color: #1a1a1a;
 }
 
-.bookings-table th,
-.bookings-table td {
+.bookings-table th, .bookings-table td {
   padding: 14px;
   border: 1px solid #ddd;
   font-size: 14px;
